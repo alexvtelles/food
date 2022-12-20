@@ -1,14 +1,24 @@
+import { useState } from 'react'
+
 import { Container } from './styles'
+
 import { ReactComponent as BurgerIcon } from '../../assets/burger.svg'
 import { ReactComponent as PizzaIcon } from '../../assets/pizza.svg'
 import { ReactComponent as SodaIcon } from '../../assets/soda.svg'
 import { ReactComponent as IceIcon } from '../../assets/ice-cream.svg'
+
 import menuImg from '../../assets/menu.svg'
 
 const Sidebar = () => {
+  const [menuOpen, setMenuOpen] = useState(false)
+
+  const handleToogleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
   return (
-    <Container>
-      <button type='button'>
+    <Container isMenuOpen={menuOpen}>
+      <button type='button' onClick={handleToogleMenu}>
         <img src={menuImg} alt='Abrir e fechar menu' />
       </button>
       <nav>
