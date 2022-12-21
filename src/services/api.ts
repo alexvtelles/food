@@ -6,7 +6,7 @@ const api = axios.create({
 
 export const getBurgers = () => api.get('/burgers')
 export const getPizzas = () => api.get('/pizzas')
-export const getBebidass = () => api.get('/bebidas')
-export const getDocess = () => api.get('/doces')
+export const getBebidas = () => api.get('/bebidas')
+export const getDoces = () => api.get('/doces')
 
 export default api
