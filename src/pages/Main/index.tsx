@@ -11,8 +11,8 @@ export default function Main() {
 
       <section>
         <img src={logoImg} alt='Logo' />
+        <Outlet />
       </section>
-      <Outlet />
     </Container>
   )
 }
