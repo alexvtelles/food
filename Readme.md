@@ -1,6 +1,6 @@
 # Oh Seu Delivery
 
-- Aplicação desenvolvida com React
+- Aplicação desenvolvida com React, Typescript, Styled Component, Hooks, Context
 
 ### Versão desktop
 
