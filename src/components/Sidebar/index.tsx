@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 import { Container } from './styles'
 
@@ -24,28 +25,28 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li>
-            <a className='active'>
+            <NavLink to={'./'}>
               <BurgerIcon />
               <span>Hanbúrgers</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a>
+            <NavLink to={'./pizzas'}>
               <PizzaIcon />
               <span>Pizzas</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a>
+            <NavLink to={'./bebidas'}>
               <SodaIcon />
               <span>Bebidas</span>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a>
+            <NavLink to={'./sorvetes'}>
               <IceIcon />
               <span>Sorvetes</span>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>
