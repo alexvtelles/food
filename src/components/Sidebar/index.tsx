@@ -43,7 +43,7 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to={'./sorvetes'}>
+            <NavLink to={'./doces'}>
               <IceIcon />
               <span>Sorvetes</span>
             </NavLink>

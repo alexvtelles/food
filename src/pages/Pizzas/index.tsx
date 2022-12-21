@@ -1,7 +1,12 @@
-import { Container } from './styles'
+import { Head } from '../../components/Head'
+import { SnackTitle } from '../../components/SnackTitle'
 
 const Pizzas = () => {
-  return <Container>Pizzas</Container>
+  return (
+    <>
+      <Head title='Pizzas' description='Os melhores sabores de pizzas' />
+      <SnackTitle>Pizzas</SnackTitle>
+    </>
+  )
 }
-
 export default Pizzas

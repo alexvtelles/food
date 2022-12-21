@@ -1,7 +1,13 @@
-import { Container } from './styles'
+import { Head } from '../../components/Head'
+import { SnackTitle } from '../../components/SnackTitle'
 
 const Sorvetes = () => {
-  return <Container>Sorvetes</Container>
+  return (
+    <>
+      <Head title='Doces' description='Os mais deliciosos doces' />
+      <SnackTitle>Doces</SnackTitle>
+    </>
+  )
 }
 
 export default Sorvetes
