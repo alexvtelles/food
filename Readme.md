@@ -11,7 +11,7 @@
 <hr>
 <br>
 
-### Versão mobile
+### Versão mobile da aplicação
 
 <br>
 <img src="./src/assets/mobile.png">
